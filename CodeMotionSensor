@@ -1,0 +1,4 @@
+import RPi.GPIO as GPIO                                             #importeer de GPIO library
+import time                                                         #importeer de time-library voor functies als sleep()
+from gpiozero import MotionSensor                                   #importeer functies voor de motionsensor
+from gpiozero import LED                                            #importeer functies voor het led lampje
