@@ -46,5 +46,15 @@ De sensor deed wat hij moest doen, maar het lampje bleef niet aan staan, omdat d
 Na lang zoeken heb ik de delay in de sensor aan kunnen passen. Op dit moment moesten de timeframes (sleeps) in de code aangepast worden, zodat ze hierbij aansloten.
 Na de aanpassingen deed de sensor wat hij moest doen en was het prototype af.
 
+Video:
+Opgenomen in de mail, omdat deze te groot is voor GitHub!
+
 Foto's:
-![IMG-20210203-WA0004](https://user-images.githubusercontent.com/74979378/107403850-e8d1bc80-6b05-11eb-8274-db07a3961483.jpeg)
+![IMG-20210209-WA0002](https://user-images.githubusercontent.com/74979378/107404329-79100180-6b06-11eb-86eb-2bf682603989.jpg)
+![IMG-20210209-WA0003](https://user-images.githubusercontent.com/74979378/107404330-79a89800-6b06-11eb-8fc5-49735eea0013.jpg)
+![IMG-20210209-WA0004](https://user-images.githubusercontent.com/74979378/107404334-79a89800-6b06-11eb-8814-f8834a6184be.jpg)
+![IMG-20210209-WA0005](https://user-images.githubusercontent.com/74979378/107404336-7a412e80-6b06-11eb-8476-30996e054419.jpg)
+![IMG-20210209-WA0006](https://user-images.githubusercontent.com/74979378/107404337-7a412e80-6b06-11eb-839a-c63146dcedb1.jpg)
+![IMG-20210209-WA0001](https://user-images.githubusercontent.com/74979378/107404339-7a412e80-6b06-11eb-9228-9e458fe7ed84.jpg)
+
+
