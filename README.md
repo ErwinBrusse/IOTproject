@@ -47,7 +47,7 @@ Na lang zoeken heb ik de delay in de sensor aan kunnen passen. Op dit moment moe
 Na de aanpassingen deed de sensor wat hij moest doen en was het prototype af.
 
 Data pipeline:
-[Data pipeline.xlsx](https://github.com/ErwinBrusse/IOTproject/files/5953217/Data.pipeline.xlsx)
+![Data pipeline](https://user-images.githubusercontent.com/74979378/107406216-7adac480-6b08-11eb-9ccb-bb1e2762bd01.png)
 
 Video:
 Opgenomen in de mail, omdat deze te groot is voor GitHub!
