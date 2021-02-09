@@ -26,8 +26,6 @@ Ik zag dat Coolblue een serie heeft op YouTube waarin ze allerlei dingen ontwerp
 Uiteindelijk is het mijn doel om een Smart Mirror te maken die apps weergeeft op basis van de persoon die ervoor staat.
 Een motion sensor is een goede start om te experimenteren met de mogelijkheden.
 
-Hoe is dit project gemaakt?
-
 Benodigde hardware:
 
 - Raspberry PI
@@ -35,6 +33,20 @@ Benodigde hardware:
 - Jumper cables
 - LED-lampje 5v
 - Breadboard (optioneel)
+
+Uitvoering project:
+In de eerste weken van het keuzevak heb ik mij geörienteerd naar de mogelijke project, waaruit ik voor een bewegingssensor heb gekozen.
+In week 3 en 4 ben ik begonnen met een kleine zelfstudie van Lindy. Deze zelfstudie bevatte veel filmpjes met uitleg over functies, loops en dergelijke.
+Vervolgens ben ik gestart met het aanleggen van het circuit. Dit leidde al snel tot problemen, omdat ik niet de juiste jumper cables had. Deze moesten besteld worden.
+Nadat ik alle onderdelen tot mijn beschikking had, ben ik begonnen aan het aanleggen van het circuit.
+Dit ging redelijk goed en ik begon met het definiëren van de GPIO-pins.
+In week 8 heb ik de verkeerde pins aangesloten en heb ik de raspberry pi weg moeten doen wegens een defect. De SD-kaart kon niet meer uitgelezen worden.
+Na de levering van een nieuwe pi heb ik mij gericht tot het configureren van de motion sensor.
+De sensor deed wat hij moest doen, maar het lampje bleef niet aan staan, omdat de sensor tijdens een delay GPIO.LOW doorgeeft.
+Na lang zoeken heb ik de delay in de sensor aan kunnen passen. Op dit moment moesten de timeframes (sleeps) in de code aangepast worden, zodat ze hierbij aansloten.
+Na de aanpassingen deed de sensor wat hij moest doen en was het prototype af.
+
+Foto's:
 
 
 
