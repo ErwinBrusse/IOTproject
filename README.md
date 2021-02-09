@@ -47,3 +47,4 @@ Na lang zoeken heb ik de delay in de sensor aan kunnen passen. Op dit moment moe
 Na de aanpassingen deed de sensor wat hij moest doen en was het prototype af.
 
 Foto's:
+![IMG-20210203-WA0004](https://user-images.githubusercontent.com/74979378/107403850-e8d1bc80-6b05-11eb-8274-db07a3961483.jpeg)
