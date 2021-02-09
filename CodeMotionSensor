@@ -2,3 +2,23 @@ import RPi.GPIO as GPIO                                             #importeer d
 import time                                                         #importeer de time-library voor functies als sleep()
 from gpiozero import MotionSensor                                   #importeer functies voor de motionsensor
 from gpiozero import LED                                            #importeer functies voor het led lampje
+
+GPIO.setmode(GPIO.BCM)                                              #hierdoor kunnen de pins van de RPi benaderd worden
+PIR_PIN = 7                                                         #het outputsignaal voor de motionsensor moet doorgegeven worden aan GPIO-PIN 7 (PIN 26)
+GPIO.setup(PIR_PIN, GPIO.IN)                                        #de RPi moet zijn input halen uit de output-pin van de motionsensor
+led = LED(17)                                                       #aanduiding van de aansluiting van het LED-lampje op de RPi.
+
+print("Starting up..")                                              #deze tekst weergeven
+time.sleep(5)                                                       #wacht 5 seconden. De motionsensor heeft een aantal seconden nodig om op te starten.
+print("Ready!")                                                     #deze tekst weergeven
+
+while True:                                                         #oneindige loop
+  i=GPIO.input(PIR_PIN)                                             #"i" gedefinieerd als variabele voor het outputsignaal van de motionsensor
+  if i==1:                                                          #als de motionsensor GPIO.HIGH (1) doorgeeft,
+    led.on()                                                        #zet het LED-lampje aan
+    print("Beweging gesignaleerd")                                  #deze tekst weergeven
+    time.sleep(5)                                                   #wacht 5 seconden totdat de loop weer uitgevoerd wordt. De motionsensor geeft een aantal seconden GPIO.LOW (0) door nadat er GPIO.HIGH (1) is doorgegeven. Door de sleep, wordt deze tijd overbrugt.
+  else:
+    print("Geen beweging gesignaleerd")                             #deze tekst weergeven
+    led.off()                                                       #zet het LED-lampje uit
+    time.sleep(2)                                                   #wacht 2 seconden totdat de loop opnieuw wordt uitgevoerd
