@@ -46,6 +46,9 @@ De sensor deed wat hij moest doen, maar het lampje bleef niet aan staan, omdat d
 Na lang zoeken heb ik de delay in de sensor aan kunnen passen. Op dit moment moesten de timeframes (sleeps) in de code aangepast worden, zodat ze hierbij aansloten.
 Na de aanpassingen deed de sensor wat hij moest doen en was het prototype af.
 
+Data pipeline:
+[Data pipeline.xlsx](https://github.com/ErwinBrusse/IOTproject/files/5953217/Data.pipeline.xlsx)
+
 Video:
 Opgenomen in de mail, omdat deze te groot is voor GitHub!
 
@@ -56,5 +59,4 @@ Foto's:
 ![IMG-20210209-WA0005](https://user-images.githubusercontent.com/74979378/107404336-7a412e80-6b06-11eb-8476-30996e054419.jpg)
 ![IMG-20210209-WA0006](https://user-images.githubusercontent.com/74979378/107404337-7a412e80-6b06-11eb-839a-c63146dcedb1.jpg)
 ![IMG-20210209-WA0001](https://user-images.githubusercontent.com/74979378/107404339-7a412e80-6b06-11eb-9228-9e458fe7ed84.jpg)
-
-
+![IMG-20210205-WA0002](https://user-images.githubusercontent.com/74979378/107404963-1408db80-6b07-11eb-8812-cccef5bfe397.jpg)
